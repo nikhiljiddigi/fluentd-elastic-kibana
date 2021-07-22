@@ -19,4 +19,4 @@ jobs:
         docker-compose up -d --build
         docker ps
         curl http://localhost:80
-        http://localhost:5601/app/management/kibana/indexPatterns
+        http://localhost:5601
